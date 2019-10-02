@@ -30,7 +30,6 @@ section{
     width: 495px;
     height: 320px;
     text-align: center;
-    display: block;
     position: relative
 }
 
@@ -39,7 +38,7 @@ aside{
     text-align: center;
     float: right;
     width:450px;
-    height: 320px;
+    height:320px;
 }
 
 footer{
@@ -56,7 +55,8 @@ article{
     height: 220px;
     width: 400px;
     position: absolute;
-    margin: 45px;
+    margin: 35px;
+    padding: 5px;
     
     
 }
@@ -69,4 +69,8 @@ h1{
 p{
     color: #777;
     background: #ebebeb;
+}
+
+h2{
+    background: #777;
 }
